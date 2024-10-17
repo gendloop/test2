@@ -1,6 +1,6 @@
 name: 🚀 Feature Request
 description: Please provide a detailed description of the feature you are requesting.
-title: "[Request]: "
+title: "[Feat]: "
 labels: ["enhancement"]
 body:
 - type: checkboxes
