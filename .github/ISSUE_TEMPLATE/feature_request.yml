@@ -7,7 +7,7 @@ body:
   attributes:
     label: Prerequisites
     options:
-    - label: I confirm that this new request is necessary.
+    - label: I confirm that this feature request is necessary.
       required: true
 - type: textarea
   attributes:
