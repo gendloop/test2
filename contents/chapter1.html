@@ -1,0 +1,612 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>C1 · 标题</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="作者">
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-vs.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-versions-select/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sidebar-style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter2.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    <link href="http://localhost:4000/rss" title="GitBook 使用教程" rel="alternate" type="application/rss+xml" />
+
+    
+        <link rel="shortcut icon" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../assets/images/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon.ico">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"gendloop/gendloopBucket","types":[],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://localhost:4000" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第一章
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    C1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    C2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    [第二章]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="chapter3.html">
+            
+                <a href="chapter3.html">
+            
+                    
+                    C3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../GLOSSARY.html">
+            
+                <a href="../GLOSSARY.html">
+            
+                    
+                    术语表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >C1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#&#x8981;">1. &#x8981;</a></li><ul><li><a href="#&#x6BB5;1">1.1. &#x6BB5;1</a></li><li><a href="#&#x52A0;&#x5E95;&#x8272;">1.2. &#x52A0;&#x5E95;&#x8272;</a></li><li><a href="#&#x4EE3;&#x7801;">1.3. &#x4EE3;&#x7801;</a></li><li><a href="#&#x56FE;&#x8868;">1.4. &#x56FE;&#x8868;</a></li></ul><li><a href="#2">2. 2</a></li><ul><li><a href="#todo">2.1. todo</a></li><li><a href="#&#x4EE3;&#x7801;&#x5757;">2.2. &#x4EE3;&#x7801;&#x5757;</a></li><li><a href="#alerts">2.3. Alerts</a></li><li><a href="#&#x8868;&#x683C;">2.4. &#x8868;&#x683C;</a></li></ul></ul></div><a href="#&#x8981;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x8981;"><a name="&#x8981;" class="plugin-anchor" href="#&#x8981;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8981;" class="anchor-navigation-ex-anchor" href="#&#x8981;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x8981;</h1>
+<p>q&#x6211; :grinning_face: &#x1F600;</p>
+<h2 id="&#x6BB5;1"><a name="&#x6BB5;1" class="plugin-anchor" href="#&#x6BB5;1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x6BB5;1" class="anchor-navigation-ex-anchor" href="#&#x6BB5;1"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x6BB5;1</h2>
+<p>&#x6BB5;1&#x5185;&#x5BB9; A</p>
+<pre class="language-"><code class="lang-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;main&gt;</span></span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="&#x52A0;&#x5E95;&#x8272;"><a name="&#x52A0;&#x5E95;&#x8272;" class="plugin-anchor" href="#&#x52A0;&#x5E95;&#x8272;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x52A0;&#x5E95;&#x8272;" class="anchor-navigation-ex-anchor" href="#&#x52A0;&#x5E95;&#x8272;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x52A0;&#x5E95;&#x8272;</h2>
+<ul>
+<li>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted !</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted with <strong>markdown</strong>!</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-green" style="">highlighted in green!</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-red" style="">highlighted in red!</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-yellow" style="background: #ff0000;">highlighted with a custom color!</span></li>
+</ul>
+<h2 id="&#x4EE3;&#x7801;"><a name="&#x4EE3;&#x7801;" class="plugin-anchor" href="#&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x4EE3;&#x7801;</h2>
+<p>Inline math: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>&#x222B;</mo><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msubsup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int_{-\infty}^\infty g(x) dx</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.805em;"></span><span class="strut bottom" style="height:1.219451em;vertical-align:-0.414451em;"></span><span class="base textstyle uncramped"><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;top:-0.0005599999999999772em;">&#x222B;</span><span class="msupsub"><span class="vlist"><span style="top:0.35612em;margin-left:-0.19445em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped mtight"><span class="mord scriptstyle cramped mtight"><span class="mord mtight">&#x2212;</span><span class="mord mathrm mtight">&#x221E;</span></span></span></span><span style="top:-0.41900000000000004em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathrm mtight">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></p>
+<p>Block math:
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>&#x22C5;</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">x+y\cdot z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.58333em;"></span><span class="strut bottom" style="height:0.7777700000000001em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">x</span><span class="mbin">+</span><span class="mord mathit" style="margin-right:0.03588em;">y</span><span class="mbin">&#x22C5;</span><span class="mord mathit" style="margin-right:0.04398em;">z</span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>&#x222B;</mo><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msubsup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">
+\int_{-\infty}^\infty g(x) dx
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.805em;"></span><span class="strut bottom" style="height:1.219451em;vertical-align:-0.414451em;"></span><span class="base textstyle uncramped"><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;top:-0.0005599999999999772em;">&#x222B;</span><span class="msupsub"><span class="vlist"><span style="top:0.35612em;margin-left:-0.19445em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped mtight"><span class="mord scriptstyle cramped mtight"><span class="mord mtight">&#x2212;</span><span class="mord mathrm mtight">&#x221E;</span></span></span></span><span style="top:-0.41900000000000004em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathrm mtight">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></p>
+<p>Or using the templating syntax:</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>&#x222B;</mo><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msubsup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">
+\int_{-\infty}^\infty g(x) dx
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.805em;"></span><span class="strut bottom" style="height:1.219451em;vertical-align:-0.414451em;"></span><span class="base textstyle uncramped"><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;top:-0.0005599999999999772em;">&#x222B;</span><span class="msupsub"><span class="vlist"><span style="top:0.35612em;margin-left:-0.19445em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped mtight"><span class="mord scriptstyle cramped mtight"><span class="mord mtight">&#x2212;</span><span class="mord mathrm mtight">&#x221E;</span></span></span></span><span style="top:-0.41900000000000004em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathrm mtight">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></p>
+<h2 id="&#x56FE;&#x8868;"><a name="&#x56FE;&#x8868;" class="plugin-anchor" href="#&#x56FE;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x56FE;&#x8868;" class="anchor-navigation-ex-anchor" href="#&#x56FE;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x56FE;&#x8868;</h2>
+<p></p><div class="mermaid">
+graph TD;
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+</div><p></p>
+<h1 id="2"><a name="2" class="plugin-anchor" href="#2"><i class="fa fa-link" aria-hidden="true"></i></a><a name="2" class="anchor-navigation-ex-anchor" href="#2"><i class="fa fa-link" aria-hidden="true"></i></a>2. 2</h1>
+<h2 id="todo"><a name="todo" class="plugin-anchor" href="#todo"><i class="fa fa-link" aria-hidden="true"></i></a><a name="todo" class="anchor-navigation-ex-anchor" href="#todo"><i class="fa fa-link" aria-hidden="true"></i></a>2.1. todo</h2>
+<ul>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"> write some articles</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled" checked="checked"> drink a cup of tea</li>
+</ul>
+<h2 id="&#x4EE3;&#x7801;&#x5757;"><a name="&#x4EE3;&#x7801;&#x5757;" class="plugin-anchor" href="#&#x4EE3;&#x7801;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4EE3;&#x7801;&#x5757;" class="anchor-navigation-ex-anchor" href="#&#x4EE3;&#x7801;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2. &#x4EE3;&#x7801;&#x5757;</h2>
+<pre class="language-"><code>**[terminal]
+**[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
+Normal output line. Nothing special here...
+But...
+You can add some colors. What about a warning message?
+**[warning [WARNING] The color depends on the theme. Could look normal too]
+What about an error message?
+**[error [ERROR] This is not the error you are looking for]
+</code></pre><h2 id="alerts"><a name="alerts" class="plugin-anchor" href="#alerts"><i class="fa fa-link" aria-hidden="true"></i></a><a name="alerts" class="anchor-navigation-ex-anchor" href="#alerts"><i class="fa fa-link" aria-hidden="true"></i></a>2.3. Alerts</h2>
+<p>&#x6DFB;&#x52A0;&#x4E0D;&#x540C; alerts &#x6837;&#x5F0F;&#x7684; blockquotes&#xFF0C;&#x76EE;&#x524D;&#x5305;&#x542B; info, warning, danger &#x548C; success &#x56DB;&#x79CD;&#x6837;&#x5F0F;&#x3002;</p>
+<p>Info styling</p>
+<blockquote>
+<p><strong>[info] For info</strong></p>
+<p>Use this for infomation messages.</p>
+</blockquote>
+<p>Warning styling</p>
+<blockquote>
+<p><strong>[warning] For warning</strong></p>
+<p>Use this for warning messages.</p>
+</blockquote>
+<p>Danger styling</p>
+<blockquote>
+<p><strong>[danger] For danger</strong></p>
+<p>Use this for danger messages.</p>
+</blockquote>
+<p>Success styling</p>
+<blockquote>
+<p><strong>[success] For info</strong></p>
+<p>Use this for success messages.</p>
+</blockquote>
+<h2 id="&#x8868;&#x683C;"><a name="&#x8868;&#x683C;" class="plugin-anchor" href="#&#x8868;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8868;&#x683C;" class="anchor-navigation-ex-anchor" href="#&#x8868;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a>2.4. &#x8868;&#x683C;</h2>
+<p><a href="../assets/csv/2024.csv" target="_blank">../assets/csv/2024.csv</a><table><tbody><tr><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>Jun.</th><th>Jul.</th><th>Aug.</th><th>Sep.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th></th><th></th></tr><tr><td>Monday</td><td>Thursday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Tuesday</td><td>Friday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Wednesday</td><td>Saturday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td></td><td></td><td></td><td></td></tr><tr><td>Thursday</td><td>Sunday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td></td><td></td><td></td><td></td></tr><tr><td>Friday</td><td>Monday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td></td><td></td><td></td><td></td></tr><tr><td>Saturday</td><td>Tuesday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td></td><td></td><td></td><td></td></tr><tr><td>Sunday</td><td>Wednesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td></td><td></td><td></td><td></td></tr><tr><td>Monday</td><td>Thursday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Tuesday</td><td>Friday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Wednesday</td><td>Saturday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td></td><td></td><td></td><td></td></tr><tr><td>Thursday</td><td>Sunday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td></td><td></td><td></td><td></td></tr><tr><td>Friday</td><td>Monday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td></td><td></td><td></td><td></td></tr><tr><td>Saturday</td><td>Tuesday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td></td><td></td><td></td><td></td></tr><tr><td>Sunday</td><td>Wednesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td></td><td></td><td></td><td></td></tr><tr><td>Monday</td><td>Thursday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Tuesday</td><td>Friday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Wednesday</td><td>Saturday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td></td><td></td><td></td><td></td></tr><tr><td>Thursday</td><td>Sunday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td></td><td></td><td></td><td></td></tr><tr><td>Friday</td><td>Monday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td></td><td></td><td></td><td></td></tr><tr><td>Saturday</td><td>Tuesday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td></td><td></td><td></td><td></td></tr><tr><td>Sunday</td><td>Wednesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td></td><td></td><td></td><td></td></tr><tr><td>Monday</td><td>Thursday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td></td><td></td><td></td><td></td></tr><tr><td>Tuesday</td><td>Friday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td></td><td></td><td>Sunday</td><td>42</td></tr><tr><td>Wednesday</td><td>Saturday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td></td><td></td><td>Monday</td><td>43</td></tr><tr><td>Thursday</td><td>Sunday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td></td><td></td><td>Tuesday</td><td>43</td></tr><tr><td>Friday</td><td>Monday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Friday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td></td><td></td><td>Wednesday</td><td>43</td></tr><tr><td>Saturday</td><td>Tuesday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Saturday</td><td>Tuesday</td><td>Friday</td><td></td><td></td><td></td><td>Thursday</td><td>43</td></tr><tr><td>Sunday</td><td>Wednesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Sunday</td><td>Wednesday</td><td>Saturday</td><td></td><td></td><td></td><td>Friday</td><td>43</td></tr><tr><td>Monday</td><td>Thursday</td><td>Friday</td><td>Monday</td><td>Wednesday</td><td>Saturday</td><td>Monday</td><td>Thursday</td><td>Sunday</td><td></td><td></td><td></td><td>Saturday</td><td>43</td></tr><tr><td>Tuesday</td><td></td><td>Saturday</td><td>Tuesday</td><td>Thursday</td><td>Sunday</td><td>Tuesday</td><td>Friday</td><td>Monday</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Wednesday</td><td></td><td>Sunday</td><td></td><td>Friday</td><td></td><td>Wednesday</td><td>Saturday</td><td></td><td></td><td></td><td></td><td>SUM</td><td></td></tr><tr><td>31</td><td>29</td><td>31</td><td>30</td><td>31</td><td>30</td><td>31</td><td>31</td><td>30</td><td>26</td><td>0</td><td>0</td><td>300</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; &#x6E29;&#x7389; 2021 | <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">&#x6D59;ICP&#x5907;2020032454&#x53F7;</a> all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2024-10-28 13:31:48
+</span></footer></body></html> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 第一章">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter2.html" class="navigation navigation-next " aria-label="Next page: C2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"C1","level":"1.2.1","depth":2,"next":{"title":"C2","level":"1.2.2","depth":2,"path":"contents/chapter2.md","ref":"contents/chapter2.md","articles":[]},"previous":{"title":"第一章","level":"1.2","depth":1,"path":"contents/README.md","ref":"contents/README.md","articles":[{"title":"C1","level":"1.2.1","depth":2,"path":"contents/chapter1.md","ref":"contents/chapter1.md","articles":[]},{"title":"C2","level":"1.2.2","depth":2,"path":"contents/chapter2.md","ref":"contents/chapter2.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-highlight","-search","search-plus@0.0.11","-sharing","sharing-plus@0.0.2","splitter@0.0.8","mermaid-gb3@2.1.0","expandable-chapters-small@0.1.7","anchor-navigation-ex@0.1.8","simple-page-toc@0.1.1","github@2.0.0","github-buttons@2.1.0","edit-link@2.0.2","disqus@0.1.0","prism@2.4.0","prism-themes@0.0.2","advanced-emoji@0.2.2","anchors@0.7.1","include-codeblock@3.2.3","ace@0.3.2","emphasize@1.1.0","katex@1.1.4","tbfed-pagefooter@0.0.1","donate@1.0.2","sitemap-general@0.1.1","favicon@0.0.2","todo@0.1.3","3-ba@0.9.0","terminal@0.3.2","alerts@0.2.0","include-csv@0.1.0","puml@1.0.1","musicxml@1.0.2","klipse@1.2.0","versions-select@0.1.1","rss@3.0.2","graph@0.1.0","chart@0.2.0","code@0.1.0","theme-comscore@0.0.3","sidebar-style@1.0.2","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sidebar-style":{"title":"GitBook 使用","author":"gendloop"},"tbfed-pagefooter":{"copyright":"Copyright &copy 温玉 2021 | <a href='https://beian.miit.gov.cn/#/Integrated/index'>浙ICP备2020032454号</a>","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-vs.min.css"]},"include-csv":{},"disqus":{"useIdentifier":false,"shortName":"gendloop"},"emphasize":{},"ace":{},"github":{"url":"https://github.com/gendloop"},"puml":{},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"versions-select":{"type":"branches"},"graph":{},"donate":{"title":"鼓励一下","button":"赞赏","wechat":"https://zhangjikai.com/resource/weixin.png","alipay":"https://zhangjikai.com/resource/alipay.png","wechatText":"微信打赏","alipayText":"支付宝打赏"},"sitemap-general":{"prefix":"http://gitbook.example.com"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook","test"],"title":"GitBook 使用教程","description":"记录 GitBook 的配置和一些插件的使用","author":"gendloop","feed_url":"http://localhost:4000/rss","site_url":"http://gendloop.top/","managingEditor":"gendloop@163.com","webMaster":"gendloop@163.com"},"musicxml":{},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/favicon.ico","appleTouchMore":{"120x120":"assets/images/favicon.ico","180x180":"assets/images/favicon.ico"}},"theme-comscore":{},"prism-themes":{},"alerts":{},"github-buttons":{"repo":"gendloop/gendloopBucket","types":[],"size":"small"},"3-ba":{"configuration":"auto","token":"ab48cc3bf9dab9fbecc9fb216b38b778"},"expandable-chapters-small":{},"klipse":{"myConfigKey":"it's the default value"},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"lang":"","fixlang":false,"template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon","qq","qzone"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":false,"fade":false,"style":"flat"},"edit-link":{"label":"Edit","base":"https://github.com/gendloop/gendloopBucket/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"作者","pdf":{"pageNumbers":true,"fontSize":11,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"标题","language":"zh-hans","links":{"sidebar":{"Home":"http://localhost:4000"}},"gitbook":">=3.2.3","description":"文档描述"},"file":{"path":"contents/chapter1.md","mtime":"2024-10-28T05:31:48.824Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-10-30T14:55:17.348Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-musicxml/osmd.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-musicxml/musicxml.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-musicxml/promise.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-versions-select/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sidebar-style/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
